@@ -1,31 +1,43 @@
-public class Criptare {
+// Decompiled by Jad v1.5.8f. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.kpdus.com/jad.html
+// Decompiler options: packimports(3) 
+// Source File Name:   Criptare.java
 
-  public String name;
 
-  public Integer CardInfo;
+public class Criptare
+{
 
-  public Integer PassWord;
+    public Criptare()
+    {
+    }
 
-  public Integer pin;
+    public void getName()
+    {
+    }
 
-      public Database myDatabase;
+    public void getCardInfo()
+    {
+    }
 
-  public void getName() {
-  }
+    public void getPassword()
+    {
+    }
 
-  public void getCardInfo() {
-  }
+    public void getPin()
+    {
+    }
 
-  public void getPassword() {
-  }
+    public void criptare()
+    {
+    }
 
-  public void getPin() {
-  }
+    public void decriptare()
+    {
+    }
 
-  public void criptare() {
-  }
-
-  public void decriptare() {
-  }
-
+    public String name;
+    public Integer CardInfo;
+    public Integer PassWord;
+    public Integer pin;
+    public Database myDatabase;
 }
