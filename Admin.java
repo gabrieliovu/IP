@@ -1,35 +1,43 @@
+// Decompiled by Jad v1.5.8f. Copyright 2001 Pavel Kouznetsov.
+// Jad home page: http://www.kpdus.com/jad.html
+// Decompiler options: packimports(3) 
+// Source File Name:   Admin.java
+
 import java.util.Vector;
 
-public class Admin {
+public class Admin
+{
 
-  public String Name;
+    public Admin()
+    {
+    }
 
-  public String Adree;
+    public void GetName()
+    {
+    }
 
-  public String Tel;
+    public void newOperation()
+    {
+    }
 
-    /**
-   * 
-   * @element-type Application
-   */
-  public Vector  login;
+    public void SetName()
+    {
+    }
 
-  public void GetName() {
-  }
+    public void GetTel()
+    {
+    }
 
-  public void newOperation() {
-  }
+    public void BanUser()
+    {
+    }
 
-  public void SetName() {
-  }
+    public void AddAnounce()
+    {
+    }
 
-  public void GetTel() {
-  }
-
-  public void BanUser() {
-  }
-
-  public void AddAnounce() {
-  }
-
+    public String Name;
+    public String Adree;
+    public String Tel;
+    public Vector login;
 }
